@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
     background-image: url(image/top-banner.png);
@@ -22,7 +23,7 @@ section{
     padding-left: 20px;
 }
 .half-width img{
-    width: 100%;
+    width: 50%;
 }
 .more-details{
     font-size: 15px;
@@ -30,5 +31,18 @@ section{
     padding: 5px 8px;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+.activity{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.instagram{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 200);
     border-radius: 5px;
 }
