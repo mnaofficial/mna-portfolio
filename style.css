@@ -10,7 +10,7 @@ h1{
 .h1-mna{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -22,8 +22,48 @@ section{
     width: 50%;
     padding-left: 20px;
 }
+.channel-area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    
+}
+.youtube-area{
+    background-image: url(image/channel-area.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#tech-tuber-boss{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#mna-motivation{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(43, 255, 0), rgb(255, 0, 242));
+    border-image-slice: 1;
+}
 .half-width img{
     width: 50%;
+}
+#youtube{
+    text-align: center;
+    color: blue;
+}
+#channel-name{
+    color: red;
+    text-align: center;
+}
+#slogan{
+    color: green;
+}
+.full-slogan{
+    font-size: 13px;
+    text-align: right;
+    padding-right: 7px;
 }
 .more-details{
     font-size: 15px;
@@ -45,4 +85,7 @@ section{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 200);
     border-radius: 5px;
+}
+.copyright{
+    text-align: center;
 }
